@@ -6,9 +6,15 @@
 examples/
 .
 ├── README.md
+├── adddata.py
+├── apytest.py
 ├── config.example.yaml          # 示例配置文件（需要修改为config.yaml）
 ├── demo_group_reply_text.py     # 机器人群内发消息相关示例
 ├── demo_group_reply_file.py     # 机器人群内发富媒体消息相关示例
+├── getdata.py
+├── main.py                      #机器人启动主函数
+├── maint.py
+├── showdata.py
 ```
 
 ## 环境安装
@@ -29,5 +35,5 @@ pip install qq-botpy
 3. 运行机器人。例如：
 
     ``` bash
-    python3 main.py
+    python main.py
     ```
