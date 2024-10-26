@@ -166,3 +166,4 @@ config.yaml
 game_data.db
 simple_info.json
 detail_info.json
+botpy.log.*
